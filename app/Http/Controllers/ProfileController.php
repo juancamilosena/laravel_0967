@@ -21,7 +21,7 @@ class ProfileController extends Controller
 //Store
     public function store(Request $request){
        
-        $profile= new Profile();
+        $profile= new Profile();   
 
         $profile->user_id=$request->user_id;//llave foranea
         $profile->title=$request->title;
